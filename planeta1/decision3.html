@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando las Estrellas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazamos nuestro archivo CSS -->
+    <style>
+        .decision img {
+            width: 100%; /* La imagen ocupará el ancho completo de su contenedor */
+            display: block; /* Para centrar la imagen */
+            margin: 0 auto; /* Para centrar la imagen */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando las Estrellas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>¡Bienvenido al Planeta Rocoso!</h2>
+            <p>Te encuentras en un mundo árido y desolado, con paisajes rocosos y escasos recursos. La gravedad es más alta de lo normal y el ambiente es hostil para la vida humana. Sin embargo, este planeta esconde secretos y tesoros que solo los valientes exploradores pueden descubrir.</p>
+            <p>¿Qué camino tomarás en esta inhóspita tierra?</p>
+            <div class="decision" id="decision3">
+                <h3>Decisión 3: Buscar refugio en un oasis cercano</h3>
+                <img src="decision3Oasis.jpg" alt="Oasis cercano">
+                <p>Decides buscar un lugar seguro y un poco de descanso en el oasis que avistaste en el horizonte.</p>
+                <!-- Contenido de lo que sucede luego de la Decisión 3 -->
+                <p>Al llegar al oasis, encuentras agua fresca y una vegetación exuberante, pero también descubres evidencia de presencia alienígena en los alrededores.</p>
+                <p>Decides regresar al Planeta Rocoso para reevaluar tu siguiente paso.</p>
+                <button onclick="location.href= 'planeta1.html'">Volver al Planeta Rocoso</button>
+                <p>Después de reflexionar, te das cuenta de que aún hay mucho por descubrir en el Planeta Rocoso. Quizás valga la pena intentar explorar el agujero negro que avistaste en tu última expedición...</p>
+                <button onclick="location.href= '../index.html'">Volver al Inicio</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Explorando las Estrellas - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
